@@ -1,7 +1,6 @@
 # Login screen | React + Vite
 
 <div align="center">
-**Projeto criado utilizando:**
 <img src = "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 <img src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
@@ -15,6 +14,10 @@
 <img src = "https://github.com/user-attachments/assets/05bee8a1-74e8-498e-9cd6-0239b53aaf87" width="800px">
 </div>
 
+<div align="center">
+
 **⋘ - ⋙
 ⋘ = ⋙
 ⋘ - ⋙**
+
+</div>
