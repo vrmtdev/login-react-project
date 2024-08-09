@@ -6,5 +6,5 @@
 </div>
 
 <div align="center">
-![mockupLogin](https://github.com/user-attachments/assets/8f9aa54b-0896-414b-8fe8-4900063f66ab)
+<img src = "https://github.com/user-attachments/assets/05bee8a1-74e8-498e-9cd6-0239b53aaf87" width="600px">
 </div>
