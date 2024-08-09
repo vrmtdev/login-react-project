@@ -1,0 +1,166 @@
+.container h1 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* border */
+
+.container {
+  width: 450px;
+  padding: 40px;
+  background: rgba(54, 78, 100, 0.247);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(61, 54, 54, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(34, 23, 63, 0.18);
+}
+
+.container .input-field {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px auto;
+}
+
+/* recall */
+
+.container .recall-forget {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin: -15px 0 15px;
+  font-weight: 600;
+}
+
+.recall-forget label {
+  color: rgb(226, 197, 197);
+}
+
+.recall-forget input {
+  margin-right: 5px;
+}
+
+.recall-forget a,
+.signup-link a {
+  color: rgb(226, 197, 197);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.recall-forget a:hover,
+.signup-link a:hover {
+  color: white;
+  transform: scale(1.04);
+  transition: 0.5s;
+}
+
+/* btn */
+
+.container .enter {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(216, 214, 218);
+  text-shadow: none;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 1.15rem;
+  transition: 0.5s;
+}
+
+.container .enter:hover {
+  background-color: white;
+  transform: scale(1.02);
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px rgb(173, 149, 149);
+}
+
+/* Google & Facebook */
+
+.signup-link p {
+  color: rgba(240, 228, 228, 0.829);
+  margin: 15px 20px 20px;
+  transform: translateY(50%);
+  font-weight: 300;
+}
+
+.alternative-login {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.alternative-login button {
+  width: 48%;
+  height: 50px;
+  background-color: #db4a39;
+  text-shadow: none;
+  color: rgb(211, 192, 192);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+.alternative-login button:nth-child(2) {
+  background-color: rgb(59, 89, 152);
+}
+
+.alternative-login button:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  color: black;
+}
+
+.alternative-login .icon {
+  transform: translateX(-50%) translateY(10%) scale(1.3);
+}
+
+/* input */
+
+.input-field input::placeholder {
+  color: white;
+}
+
+.input-field input {
+  width: 100%;
+  height: 100%;
+  /* --- */
+  border-radius: 30px;
+  outline: none;
+  background-color: transparent;
+  border: 2px rgb(117, 104, 104) solid;
+  padding: 20px 30px;
+  /* --- */
+  font-size: 1rem;
+  color: white;
+}
+
+.input-field .icon,
+.eyeicon {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem; /* Ajuste o tamanho conforme necessário */
+}
+
+.eyeicon {
+  cursor: pointer;
+  transform: translateY(-35%);
+}
+
+.container .signup-link {
+  text-align: center;
+  font-size: 1rem;
+  margin: 20px 0 5px;
+  transform: translateY(-20%);
+}
