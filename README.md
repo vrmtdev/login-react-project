@@ -6,5 +6,5 @@
 </div>
 
 <div align="center">
-<img src = "https://github.com/vrmtdev/login-react-project/issues/1#issue-2457158939" width="600px">
+![mockupLogin](https://github.com/user-attachments/assets/8f9aa54b-0896-414b-8fe8-4900063f66ab)
 </div>
