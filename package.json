@@ -2,7 +2,7 @@
   "name": "login-react-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vrmtdev.github.io/login-react-project",
+  "homepage": "vrmtdev.github.io/login-react-project/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
